@@ -12,7 +12,7 @@ import NotFound from "./NotFound";
 
 function App() {
   const client = new ApolloClient({
-    uri: import.meta.env.VITE_BACKEND_URI,
+    uri: "https://backendproyect3.onrender.com/graphql",
     cache: new InMemoryCache(),
   });
 
